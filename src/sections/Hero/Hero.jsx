@@ -35,7 +35,6 @@ function Hero() {
         <h1>Jonathan <br/> Morales</h1>
         <h2>Full Stack Web Developer</h2>
         <span>
-            
             <a href="https://github.com/jomorales9375" target='_blank'>
             <img src={githubIcon} alt="github Icon" /> 
             </a>
@@ -43,7 +42,7 @@ function Hero() {
             <img src={linkedInIcon} alt="linkedIn Icon" />
              </a>
         </span>
-        <p className={styles.description}>Full stack web developer specializing in building seamless, user-centric applications with modern technologies for both front-end and back-end solutions.</p>
+        <p className={styles.description}>Full stack web developer specializing in building applications with modern technologies for both front-end and back-end solutions.</p>
         <a href={CV} download>
             <button className="hover" download>Resume</button>
         </a>
