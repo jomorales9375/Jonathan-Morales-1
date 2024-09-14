@@ -15,7 +15,6 @@ function Hero() {
     const { theme, toggleTheme } =  useTheme();
 
     const themeIcon = theme === 'light' ? sun : moon;
-   
     const githubIcon = theme === 'light' ? githubLight : githubDark;
     const linkedInIcon = theme === 'light' ? linkedinLight : linkedinDark;
 
